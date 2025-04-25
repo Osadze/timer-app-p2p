@@ -26,7 +26,7 @@ document.querySelector("#start-timer").addEventListener("click", () => {
     document.querySelector("#break-time").value,
     10
   );
-  const focusMs = focusMinutes * 60 * 10;
+  const focusMs = focusMinutes * 60 * 10; //"10" for testing
   const breakMs = breakMinutes * 60 * 10;
   startFocusTimer(focusMs, breakMs);
 });
